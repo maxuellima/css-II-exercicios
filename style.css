@@ -1,20 +1,43 @@
 header{
     border-bottom: 1px solid black;
+    text-align: center;
   }
   
   main{
     width: 800px;
+    height: 120vh;
+    margin: 0 auto;
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    text-align: center;
+    position: fixed;
+    right: 2vw;
+    bottom: 10vh;
+
   }
+ aside:active{
+  color: white;
+  background-color: black;
+ }
+ button:hover{
+  cursor: pointer;
+ }
+ button:active{
+  color: black;
+  background-color: white;
+ }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+
   }
   
   button{
